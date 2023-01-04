@@ -11,9 +11,7 @@ function App() {
       <button
         className="ftl-button"
         onClick={() =>
-          window.Osmos.handleClick(
-            "nrvmfhp-7cmt2p2bsfubrzvr_yzchlc7kgqjwjgwmttyytxnj"
-          )
+          window.Osmos.handleClick(process.env.REACT_APP_UPLOADER_TOKEN)
         }
       >
         Upload Your Data
